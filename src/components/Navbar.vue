@@ -26,7 +26,7 @@
     <el-menu-item index="3" >我的工作台</el-menu-item>
     <el-menu-item index="4" >我的工作台</el-menu-item>
     <div class="ss">
-    <el-menu-item index="5" ><el-button type="success" id="dl" >登录</el-button></el-menu-item>
+    <el-menu-item index="5" ><el-button type="success" id="dl" >个人资料</el-button></el-menu-item>
     </div>
   </el-menu>
 </template>
