@@ -25,8 +25,9 @@
     </el-submenu>
     <el-menu-item index="3" >我的工作台</el-menu-item>
     <el-menu-item index="4" >我的工作台</el-menu-item>
+    <div class="ss">
     <el-menu-item index="5" ><el-button type="success" id="dl" >登录</el-button></el-menu-item>
-    <el-menu-item index="6" ><el-button plain  id="zc" >注册</el-button></el-menu-item>
+    </div>
   </el-menu>
 </template>
 
@@ -48,5 +49,14 @@ export default {
  }
  #daohang {
    margin-left: 80px;
+ }
+ /* #dl {
+  margin-left: 520px;
+ } */
+ .ss {
+   height: 30px;
+   line-height: 30px;
+   width: 100px;
+   float: right;
  }
 </style>
